@@ -102,7 +102,7 @@ public class ChooseAreaFragment extends Fragment {
      * Search all the Provinces from Country, first get the data from database, if not then get data from server.
      */
     private void queryProvinces() {
-        titleText.setText("China");
+        titleText.setText("中国");
         backButton.setVisibility(View.GONE);
         provincesList = DataSupport.findAll(Province.class);
         if (provincesList.size() > 0) {

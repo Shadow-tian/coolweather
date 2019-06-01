@@ -21,7 +21,6 @@
         </activity>
         <activity
             android:name=".util.WeatherActivity"
-            android:theme="@style/Theme.AppCompat.Dialog"
             >
         </activity>
 
